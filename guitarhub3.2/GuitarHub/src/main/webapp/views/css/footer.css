@@ -1,0 +1,38 @@
+footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+footer .logo {
+   margin-bottom: 30px;
+}
+
+footer h4 {
+   font-size: 14px;
+   padding-bottom: 20px;
+}
+
+footer p {
+   font-size: 13px;
+   margin: 0 0 8px 0;
+}
+
+footer .copyright {
+   width: 100%;
+   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	
+	footer .col {
+    flex-basis: 50%;
+    margin-bottom: 10px;
+  }
+
+  footer h4 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+	
+}
