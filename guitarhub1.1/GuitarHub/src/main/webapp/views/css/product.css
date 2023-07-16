@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+}
+
+h2 {
+    font-size: 46px;
+   line-height: 54px;
+   color: #222; 
+}
+
+h4 {
+   font-size: 20px;
+   color: #222; 
+}
+
+
+ p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+ }
+
+ .section-p1 {
+    padding: 40px 80px;
+ }
+
+ #prodetails {
+    display: flex;
+    margin-top: 20px;
+ }
+
+
+ #prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+ }
+
+ .small-img-group {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+ }
+
+ #prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+ }
+
+ #prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+ }
+
+ #prodetails .single-pro-details h2 {
+    font-size: 26px;
+ }
+
+ #prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+ }
+
+ #prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+ }
+
+ #prodetails .single-pro-details input:focus {
+    outline: none;
+ }
+
+ .normal {
+    background-color: #088178;
+    color: #fff;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+ }
+
+ #prodetails .single-pro-details span {
+    line-height: 25px;
+ }
+
+ .review-form {
+  margin-bottom: 30px;
+}
+
+.review-form h2 {
+  margin-top: 0;
+}
+
+.review-list h2 {
+  margin-top: 0;
+}
+
+.review-list {
+  text-align: center;
+}
+
+#reviews-container {
+  margin-top: 20px;
+}
+
+.review {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-title {
+  font-weight: bold;
+}
+
+.review-score {
+  color: #088178;
+}
+
+.review-description {
+  margin-top: 5px;
+}
