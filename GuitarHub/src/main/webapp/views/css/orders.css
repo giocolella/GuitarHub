@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+}
+
+html {
+	height:100vh;
+}
+
+h2 {
+    font-size: 46px;
+   line-height: 54px;
+   color: #222; 
+}
+
+h4 {
+   font-size: 20px;
+   color: #222; 
+}
+
+
+ p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+ }
+ 
+  body {
+    width: 100%;
+ }
+
+ .section-p1 {
+    padding: 40px 80px;
+ }
+ 
+ .team-heading {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.order-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 40px 20px 40px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-info > div {
+    margin-right: 10px;
+}
+
+.shipH3 {
+	padding-top: 10px;
+}
+
+.order-date {
+    font-weight: bold;
+}
+
+.order-total {
+    font-weight: bold;
+}
+
+.order-destination {
+    font-style: italic;
+}
+
+.order-id {
+    font-style: italic;
+}
+
+.order-link {
+    text-decoration: underline;
+    color: #088178;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.shipping-status h3 {
+    margin-top: 0;
+}
+
+.ordered-items {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.item-name {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.order-info {
+		 flex-direction: column;
+		 flex-wrap: wrap;
+		 margin-left:5%;
+	}
+}
