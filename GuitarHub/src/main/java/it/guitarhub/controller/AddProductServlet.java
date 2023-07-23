@@ -24,12 +24,12 @@ public class AddProductServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String name = request.getParameter("productName").toString().trim();
-		String quantity = request.getParameter("productQuantity").toString().trim();
-		String description = request.getParameter("productDescription").toString().trim();
-		String price = request.getParameter("productPrice").toString().trim();
-		String brand = request.getParameter("productBrand").toString().trim();
-		String weight = request.getParameter("productWeight").toString().trim();
+		String name = request.getParameter("productName").trim();
+		String quantity = request.getParameter("productQuantity").trim();
+		String description = request.getParameter("productDescription").trim();
+		String price = request.getParameter("productPrice").trim();
+		String brand = request.getParameter("productBrand").trim();
+		String weight = request.getParameter("productWeight").trim();
 		String imagePath = request.getParameter("imagePath").trim();
 		String shortDescription = request.getParameter("shortDescription").trim();
 		boolean exists = false;
